@@ -59,7 +59,7 @@ jobs:
     -
       id: release
       name: Goreleaser release
-      uses: goreleaser/goreleaser-action@v4
+      uses: goreleaser/goreleaser-action@5fdedb94abba051217030cc86d4523cf3f02243d # v4.6.0
       with:
         distribution: goreleaser
         version: latest
